@@ -356,6 +356,8 @@ if ( empty( $_SESSION['STAFF_ID'] )
 
 ?>
 
+
+
 	<img src="assets/themes/<?php echo Config( 'THEME' ); ?>/logo.png" class="logo center" alt="Logo" />
 	<h4 class="center"><?php echo ParseMLField( Config( 'TITLE' ) ); ?></h4>
 	<form name="loginform" method="post" action="index.php">
@@ -436,9 +438,15 @@ if ( empty( $_SESSION['STAFF_ID'] )
 		<input type="hidden" name="redirect_to" value="<?php echo htmlspecialchars( $_REQUEST['redirect_to'], ENT_QUOTES ); ?>" />
 	<?php endif; ?>
 	</form>
+	<!--
 	<input class="toggle" type="checkbox" id="toggle1" />
-	<label class="toggle" for="toggle1"><?php echo _( 'About' ); ?></label>
-	<div class="about-rosariosis toggle-me">
+	<label class="toggle" for="toggle1">
+	<?php echo _( 'About' ); ?>
+	</label>
+	-->
+	
+	
+    <!-- div class="about-rosariosis toggle-me">
 		<?php // System disclaimer. ?>
 		<p class="size-3">
 			<?php
@@ -455,7 +463,7 @@ if ( empty( $_SESSION['STAFF_ID'] )
 			&copy; 2004-2009 <a href="http://www.centresis.org" noreferrer>The Miller Group &amp; Learners Circle</a>
 			<br />&copy; 2012-2018 <a href="https://www.rosariosis.org" noreferrer>RosarioSIS</a>
 		</p>
-	</div>
+	</div> -->
 
 <?php PopTable( 'footer' );
 
