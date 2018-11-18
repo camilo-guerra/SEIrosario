@@ -262,7 +262,7 @@ $RosarioCoreModules = array(
 	'Discipline',
 	'Accounting',
 	'Student_Billing',
-	//'Food_Service',
+	'Food_Service',
 	'Resources',
 	'Custom',
 );
