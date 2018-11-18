@@ -32,7 +32,7 @@ $DatabaseName = 'soyrosar_sei';
 //$wkhtmltopdfPath = 'C:/wkhtmltopdf/bin/wkhtmltopdf.exe';
 
 // Optional: activate other languages; here, for Spanish & French:
-$RosarioLocales = array( 'en_US.utf8', 'es_ES.utf8', 'fr_FR.utf8' );
+//$RosarioLocales = array( 'en_US.utf8', 'es_ES.utf8', 'fr_FR.utf8' );
 
 /**
  * Paths
@@ -78,7 +78,7 @@ $DefaultSyear = '2018';
  *
  * Leave empty to not receive email notifications
  */
-$RosarioNotifyAddress = '';
+$RosarioNotifyAddress = 'plataeducativa@gmail.com';
 
 
 /**
