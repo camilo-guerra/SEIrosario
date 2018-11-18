@@ -92,4 +92,4 @@ $RosarioNotifyAddress = 'plataeducativa@gmail.com';
  *
  * @example array( 'en_US.utf8', 'fr_FR.utf8', 'es_ES.utf8' );
  */
-$RosarioLocales = array( 'en_US.utf8' , 'es_ES.utf8');
+$RosarioLocales = array('es_ES.utf8');
