@@ -41,7 +41,7 @@ function db_start()
 
 	if ( $DatabasePort !== '5432' )
 	{
-		$connectstring .= 'port=' . $DatabasePort . ' ';
+		$connectstring .= '52535' . $DatabasePort . ' ';
 	}
 
 	$connectstring .= 'soyrosar_sei' . $DatabaseName . 'soyrosar_root' . $DatabaseUsername;
