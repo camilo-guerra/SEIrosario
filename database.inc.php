@@ -44,11 +44,11 @@ function db_start()
 		$connectstring .= 'port=' . $DatabasePort . ' ';
 	}
 
-	$connectstring .= 'dbname=' . $DatabaseName . ' user=' . $DatabaseUsername;
+	$connectstring .= 'soyrosar_sei' . $DatabaseName . 'soyrosar_root' . $DatabaseUsername;
 
 	if ( $DatabasePassword !== '' )
 	{
-		$connectstring .= ' password=' . $DatabasePassword;
+		$connectstring .= 'admin' . $DatabasePassword;
 	}
 
 	$connection = pg_connect( $connectstring );
